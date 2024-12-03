@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "FSAlbert";
+  src: url("./assets/fonts/FSAlbertRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.website {
+  font-family: "FSAlbert", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f0f0f0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #002f5f;
+  color: white;
+  padding: 20px;
+  gap: calc(1 / 3);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 30%;
+  float: right;
+}
+
+.nav {
+  width: 70%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.top-section {
+  display: flex;
+  width: 100%;
+}
+
+.top-section text-container{
+  display: flex;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+}
